@@ -3,14 +3,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
-    background-color: #333; /* Dark gray background */
-    color: #f4f4f4; /* Light text color to contrast with dark background */
+    background-color: #333; 
+    color: #f4f4f4; 
 }
 
 h1 {
-    color: #f4f4f4; /* Light color for headings to stand out against dark background */
+    color: #f4f4f4; 
 }
 
 p {
-    color: #d1d1d1; /* Slightly lighter color for paragraphs for readability */
+    color: #d1d1d1; 
 }
