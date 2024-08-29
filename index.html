@@ -3,12 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cloud Deployed Website</title>
+    <title>Understanding Content Delivery Networks</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to my cloud-deployed website!</h1>
-    <p>This site is hosted on GitHub Pages, demonstrating a simple cloud deployment.</p>
+    <header>
+        <h1>Understanding Content Delivery Networks</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#what-is-cdn">What is a CDN?</a></li>
+            <li><a href="#how-cdns-work">How CDNs Work</a></li>
+            <li><a href="#benefits-of-cdns">Benefits of CDNs</a></li>
+            <li><a href="#cdn-providers">CDN Providers</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <main>
+            <section id="what-is-cdn">
+                <h2>What is a CDN?</h2>
+                <p>A Content Delivery Network (CDN) is a geographically distributed network of servers that work together to provide fast delivery of Internet content.</p>
+                <img src="cdn-global-network.jpg" alt="Global CDN Network" class="content-image">
+            </section>
+
+            <section id="how-cdns-work">
+                <h2>How CDNs Work</h2>
+                <p>CDNs work by caching content on edge servers located closer to end-users, reducing latency and improving load times.</p>
+                <img src="cdn-process.jpg" alt="CDN Process" class="content-image">
+            </section>
+
+            <section id="benefits-of-cdns">
+                <h2>Benefits of CDNs</h2>
+                <ul>
+                    <li>Improved website load times</li>
+                    <li>Reduced bandwidth costs</li>
+                    <li>Increased content availability and redundancy</li>
+                    <li>Enhanced website security</li>
+                </ul>
+            </section>
+
+            <section id="cdn-providers">
+                <h2>CDN Providers Comparison</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Provider</th>
+                            <th>Global Presence</th>
+                            <th>Key Features</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cloudflare</td>
+                            <td>200+ data centers</td>
+                            <td>DDoS protection, SSL</td>
+                        </tr>
+                        <tr>
+                            <td>Akamai</td>
+                            <td>300,000+ servers</td>
+                            <td>Media delivery, IoT solutions</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon CloudFront</td>
+                            <td>225+ edge locations</td>
+                            <td>AWS integration, Lambda@Edge</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <aside>
+            <h3>Fun Facts about CDNs</h3>
+            <ul>
+                <li>The first CDN was created in the late 1990s.</li>
+                <li>CDNs handle about 70% of global internet traffic.</li>
+            </ul>
+            <p>Learn more about CDNs on <a href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/" target="_blank">Cloudflare's CDN Learning Center</a>.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Created by Isaias Rodriguez on 08-28-2024</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
